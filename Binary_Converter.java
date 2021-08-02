@@ -1,16 +1,6 @@
 import java.util.Scanner;
 
 //your code goes here
-
-
-public class Program {
-    public static void main(String[ ] args) {
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        System.out.print(Converter.toBinary(x));
-    }
-
-}
 public class Converter{
    public static String toBinary(int num){
 
@@ -22,5 +12,14 @@ public class Converter{
   return binary;
    }
 
+
+}
+
+public class Program {
+    public static void main(String[ ] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.print(Converter.toBinary(x));
+    }
 
 }
